@@ -6,3 +6,16 @@ function toScreen (x) {
 		box.value='';
 	}
 }
+
+function answer(){
+	x=box.value;
+	x=eval(x);
+  box.value=x;
+}
+
+function power () {
+	x=box.value;
+	x=eval(x*x);
+	box.value=x;
+
+}
